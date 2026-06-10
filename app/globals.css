@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+html{
+background:#050505;
+}
+
+body{
+background:#050505;
+color:white;
+font-family:Inter,sans-serif;
+overflow-x:hidden;
+}
+
+.gold{
+color:#D4AF37;
+}
+
+.container{
+max-width:1400px;
+margin:auto;
+padding:0 20px;
+}
+
+section{
+padding:100px 0;
+}
+
+button{
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+transform:translateY(-2px);
+}
